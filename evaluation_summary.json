@@ -1,0 +1,50 @@
+{
+  "selected_model": "MobileNetV2",
+  "test_images": 246,
+  "correct_predictions": 216,
+  "incorrect_predictions": 30,
+  "test_accuracy": 0.878,
+  "macro_precision": 0.88,
+  "macro_recall": 0.88,
+  "macro_f1": 0.87,
+  "weighted_f1": 0.87,
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "no_tumor",
+    "pituitary"
+  ],
+  "class_recall": {
+    "glioma": 0.95,
+    "meningioma": 0.6825396825396826,
+    "no_tumor": 0.8775510204081632,
+    "pituitary": 1.0
+  },
+  "confusion_matrix_rows_actual_columns_predicted": [
+    [
+      76,
+      2,
+      1,
+      1
+    ],
+    [
+      8,
+      43,
+      4,
+      8
+    ],
+    [
+      2,
+      4,
+      43,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      54
+    ]
+  ],
+  "medical_disclaimer": "Educational prototype only; not clinically validated and not for diagnosis or treatment."
+}
